@@ -31,7 +31,7 @@ $gray-900: $theme-text-color-primary;
 
 $theme-colors: (
   "primary": $theme-color-primary,
-  "secondary": $theme-text-color-secondary
+  "secondary": $theme-text-color-secondary,
 );
 
 /*************************** Import Bootstrap  *****************************/
@@ -41,4 +41,4 @@ $theme-colors: (
 /* uncss:ignore end */
 
 /*************************** Theme Styles Section ****************************/
-@import "20/styles.scss"; // Feather icons
+@import "23/styles.scss"; // Feather icons

@@ -2,7 +2,7 @@
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier/)
 
-_Ada Lovelace Conference 2020 in Oslo_
+_Ada Lovelace Conference 2023 in Oslo_
 
 <https://adacon.no>
 
@@ -12,18 +12,18 @@ See <https://github.com/Starefossen/docker-github-pages>:
 
     docker run -it --rm -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages
 
-The page will be available on <http://localhost:4000/20/dev.html>.
+The page will be available on <http://localhost:4000/23/dev.html>.
 
 ### CSS optimization
 
 > _Note:_ This is done automatically on GitHub [using an Action](./.github/workflows/uncss.yaml)
 
-In order to create a CSS file with only the neccessary styles, we use [`uncss`](https://github.com/uncss/uncss).
+In order to create a CSS file with only the necessary styles, we use [`uncss`](https://github.com/uncss/uncss).
 
     npm ci
-    npx uncss http://127.0.0.1:4000/20/dev.html > 20/theme.uncss.css
+    npx uncss http://127.0.0.1:4000/23/dev.html > 23/theme.uncss.css
 
-You can test the result on <http://localhost:4000/20/>.
+You can test the result on <http://localhost:4000/23/>.
 
 ## Edit Images
 

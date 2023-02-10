@@ -1,7 +1,7 @@
 {
   "name": "@tech-women/adacon",
   "version": "0.0.0-development",
-  "description": "Ada Lovelace Conference 2020 in Oslo",
+  "description": "Ada Lovelace Conference 2023 in Oslo",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,7 @@
     "url": "git+https://github.com/tech-women/adacon.git"
   },
   "keywords": [
-    "adacon20",
+    "adacon23",
     "techwomen",
     "norway"
   ],

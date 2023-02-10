@@ -31,18 +31,18 @@ jobs:
       - name: Start local server
         run: docker run -d -it --rm -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages > /tmp/docker.pid
       - name: ensure the server is running
-        run: for i in {1..30}; do curl http://127.0.0.1:4000/20/dev.html && break || sleep 1; done
+        run: for i in {1..30}; do curl http://127.0.0.1:4000/23/dev.html && break || sleep 1; done
       - name: UNCSS
-        run: npx uncss http://127.0.0.1:4000/20/dev.html > 20/theme.uncss.css
+        run: npx uncss http://127.0.0.1:4000/23/dev.html > 23/theme.uncss.css
       - name: Commit build
         run: |
           echo "machine github.com login coderbyheart password ${GITHUB_TOKEN}" > ~/.netrc
           git config user.email "actions@example.com"
           git config user.name "GitHub Actions"
           git status
-          CHANGED=$(git diff-index --name-only HEAD -- 20/theme.uncss.css)
+          CHANGED=$(git diff-index --name-only HEAD -- 23/theme.uncss.css)
           if [ -n "$CHANGED" ]; then
-              git add 20/theme.uncss.css
+              git add 23/theme.uncss.css
               git commit -m "build: update CSS build"
               git push origin HEAD:gh-pages
           fi

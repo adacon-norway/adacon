@@ -1,7 +1,7 @@
 ---
-layout: adacon20
-hashtag: adacon20
-date: 2020-10-13T09:00:00+01:00
+layout: adacon23
+hashtag: adacon23
+date: 2023-10-10T09:00:00+01:00
 mode: development
 location:
   short_description: Oslo, Norway
