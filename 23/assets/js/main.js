@@ -1,4 +1,4 @@
-$(window).on("load", function() {
+$(window).on("load", function () {
   if ($(window).scrollTop() > 80) {
     $("#header").addClass("header-shrink");
   } else {
@@ -6,10 +6,10 @@ $(window).on("load", function() {
   }
 });
 
-$(document).ready(function() {
+$(document).ready(function () {
   /* ======= Fixed Header animation ======= */
 
-  $(window).on("scroll", function() {
+  $(window).on("scroll", function () {
     if ($(window).scrollTop() > 100) {
       $("#header").addClass("header-shrink");
     } else {
@@ -21,7 +21,7 @@ $(document).ready(function() {
   $("body").scrollspy({ target: "#header", offset: 400 });
 
   /* ===== Smooth scrolling ====== */
-  $("a.scrollto").on("click", function(e) {
+  $("a.scrollto").on("click", function (e) {
     //store hash
     const target = this.hash;
     e.preventDefault();
@@ -34,10 +34,10 @@ $(document).ready(function() {
   });
 
   /* ====== test ===== */
-  $("#navigation").on("show.bs.collapse", function() {
+  $("#navigation").on("show.bs.collapse", function () {
     $(".header").addClass("header-has-bg");
   });
-  $("#navigation").on("hide.bs.collapse", function() {
+  $("#navigation").on("hide.bs.collapse", function () {
     $(".header").removeClass("header-has-bg");
   });
 
@@ -62,7 +62,7 @@ $(document).ready(function() {
   const target_date = new Date(countdown.getAttribute("data-date")).getTime();
 
   // update the tag with id "countdown" every 1 second
-  setInterval(function() {
+  setInterval(function () {
     // find the amount of "seconds" between now and target
     const current_date = new Date().getTime();
     let seconds_left = (target_date - current_date) / 1000;

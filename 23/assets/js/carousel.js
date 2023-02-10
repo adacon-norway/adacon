@@ -1,10 +1,10 @@
-const shuffleArray = array => {
+const shuffleArray = (array) => {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
   }
-  return array
-}
+  return array;
+};
 
 $(window).on("load", () => {
   setTimeout(() => {
@@ -19,12 +19,12 @@ $(window).on("load", () => {
           "background-size": "cover",
           "background-size": "cover",
           "background-position-x": "center",
-          "background-position-y": "center"
+          "background-position-y": "center",
         });
         if (i === 0) {
-          el.addClass('active')
+          el.addClass("active");
         }
       }
     });
-  }, 500)
+  }, 500);
 });
