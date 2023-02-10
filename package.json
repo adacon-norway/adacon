@@ -3,7 +3,8 @@
   "version": "0.0.0-development",
   "description": "Ada Lovelace Conference 2023 in Oslo",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/tech-women/adacon#readme",
   "devDependencies": {
+    "husky": "8.0.3",
     "lint-staged": "13.1.1",
     "prettier": "2.8.4",
     "uncss": "0.17.3"
