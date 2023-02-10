@@ -37,7 +37,7 @@
       "prettier --write",
       "eslint --ext .js,.ts"
     ],
-    "*.{md,json,yaml,yml}": [
+    "*.{md,json,yaml,yml,js,html,css,scss}": [
       "prettier --write"
     ]
   }
