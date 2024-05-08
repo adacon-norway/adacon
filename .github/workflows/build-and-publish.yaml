@@ -20,6 +20,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
@@ -38,9 +40,6 @@ jobs:
         with:
           branch: saga
           defaultVersion: "${{ env.currentRelease }}-${{ github.sha }}"
-
-      - name: Fix git permissions
-        run: chmod -R ugo+rwX .
 
       - name: Build
         env:
