@@ -24,9 +24,8 @@ jobs:
           fetch-depth: 0
 
       # For semantic-release
-      # sync folder owner
-      - name: sync owner
-        run: sudo chown runner:runner -R .*
+      - name: fix perms
+        run: sudo chmod -R ugo+rwX .
 
       - uses: actions/setup-node@v4
         with:
