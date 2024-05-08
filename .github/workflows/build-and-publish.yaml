@@ -39,6 +39,9 @@ jobs:
           branch: saga
           defaultVersion: "${{ env.currentRelease }}-${{ github.sha }}"
 
+      - name: Fix git permissions
+        run: chmod -R ugo+rwX .
+
       - name: Build
         env:
           VERSION: ${{ steps.version.outputs.nextRelease }}
