@@ -24,10 +24,9 @@ export const Speakers = ({ speakers }: { speakers: Speaker[] }) => {
 						{upcomingSpeakers.length === 0 && (
 							<>
 								<p>
-									Help us build an amazing line-up by tipping us great speakers
-									and workshop facilitators using our Help us build an amazing
-									line-up for the next AdaCon Norway by tipping us great
-									speakers and workshop facilitators using our
+									Help us build an amazing line-up for the next AdaCon Norway by
+									tipping us great speakers and workshop facilitators by using
+									our
 								</p>
 								<p class="text-center">
 									<a
