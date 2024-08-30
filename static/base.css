@@ -111,7 +111,8 @@ li {
   white-space: nowrap;
 }
 
-.markdown table td, .markdown table th {
+.markdown table td,
+.markdown table th {
   padding: 0.5rem 0.5rem 0.5rem 0;
   vertical-align: top;
 }
