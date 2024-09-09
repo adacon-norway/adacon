@@ -7,6 +7,7 @@ import { SpeakerCard } from './SpeakerCard'
 
 export const Previously = ({ speakers }: { speakers: Speaker[] }) => {
 	const speakers2023 = speakersByYear(speakers, 2023)
+	const speakers2019 = speakersByYear(speakers, 2019)
 	return (
 		<section class="py-4">
 			<div class="container text-center">
@@ -90,6 +91,18 @@ export const Previously = ({ speakers }: { speakers: Speaker[] }) => {
 							list="PL6JNLg5GnxPhJkUm8mihIAEdi54WJYBP_"
 							title="Ada Lovelace Day 2019"
 						/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 offset-md-3 pt-4">
+						<h5 class="fs-4 py-4">Speakers 2019</h5>
+					</div>
+				</div>
+				<div class="row">
+					<div class="py-lg-5 speakers previously">
+						{speakers2019.map((speaker) => (
+							<SpeakerCard speaker={speaker} key={speaker.slug} />
+						))}
 					</div>
 				</div>
 			</div>
