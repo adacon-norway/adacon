@@ -44,6 +44,22 @@ export const Sponsors = () => (
 						<br />
 						Location Sponsor
 					</p>
+					<p>
+						<a
+							href="https://ndcconferences.com/"
+							rel="friend met noopener noreferrer"
+							target="_blank"
+						>
+							<img
+								src="./static/ndc.png"
+								alt="NDC Conferences"
+								class="img-fluid mt-4 mb-2"
+								style={{ maxWidth: '300px' }}
+							/>
+						</a>
+						<br />
+						Video Sponsor
+					</p>
 				</div>
 			</div>
 			<div class="row py-md-5">
