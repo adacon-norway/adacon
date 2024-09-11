@@ -60,6 +60,22 @@ export const Sponsors = () => (
 						<br />
 						Video Sponsor
 					</p>
+					<p>
+						<a
+							href="https://www.aplia.no/"
+							rel="friend met noopener noreferrer"
+							target="_blank"
+						>
+							<img
+								src="./static/aplia.svg"
+								alt="Aplia &middot; Unike digitale spesialister"
+								class="img-fluid mt-4 mb-2"
+								style={{ maxWidth: '300px' }}
+							/>
+						</a>
+						<br />
+						Bronze Sponsor
+					</p>
 				</div>
 			</div>
 			<div class="row py-md-5">
