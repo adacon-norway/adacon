@@ -64,14 +64,15 @@ export const Footer = () => (
 					</a>
 				</nav>
 				<nav class="mt-4">
+					<a href="./code-of-conduct" rel="me" class="ms-4">
+						Code of Conduct
+					</a>
+
 					<a href="https://techwomen.no/" rel="me">
 						Tech Women Norway
 					</a>
 					<a href="./logos" class="ms-4">
 						Logo
-					</a>
-					<a href="./code-of-conduct" rel="me" class="ms-4">
-						Code of Conduct
 					</a>
 				</nav>
 				<p class="mt-4 pb-4">
