@@ -48,7 +48,7 @@
 		"*.{md,yaml,yml}": ["prettier --write"],
 		"*.{json,ts,tsx}": [
 			"npx @biomejs/biome format --write",
-			"npx @biomejs/biome lint --apply"
+			"npx @biomejs/biome lint --write"
 		]
 	},
 	"engines": {
