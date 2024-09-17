@@ -16,6 +16,7 @@ export const Footer = () => (
 						href="https://www.instagram.com/adacon_no/"
 						rel="me"
 						title="AdaCon Norway on Instagram"
+						class="ms-4"
 					>
 						<Instagram />
 					</a>
