@@ -1,10 +1,17 @@
-import { Cloud, Github, Instagram, Youtube } from 'lucide-preact'
+import { Cloud, Github, Instagram, Youtube, Linkedin } from 'lucide-preact'
 
 export const Footer = () => (
 	<div class="container text-center mt-4">
 		<div class="row">
 			<div class="col-12 pt-4 pb-4">
 				<nav>
+					<a
+						href="https://www.linkedin.com/company/ada-con/"
+						rel="me"
+						title="AdaCon Norway on LinkedIn"
+					>
+						<Linkedin />
+					</a>
 					<a
 						href="https://www.instagram.com/adacon_no/"
 						rel="me"
