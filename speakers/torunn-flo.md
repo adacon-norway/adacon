@@ -1,6 +1,6 @@
 ---
 name: Torunn Flo
-linkedin: torunn-flo
+linkedIn: torunn-flo
 photo: https://cdn.sanity.io/images/q0ipzqdg/production/8558afe6608b9e7ee30ae7204c474c026f8eb1d5-832x749.png
 email: torunnfl@cisco.com
 pronouns: she/her/hers
