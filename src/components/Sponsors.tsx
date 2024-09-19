@@ -30,6 +30,38 @@ export const Sponsors = () => (
 					</p>
 					<p>
 						<a
+							href="https://www.webstep.com/"
+							rel="friend met noopener noreferrer"
+							target="_blank"
+						>
+							<img
+								src="./static/webstep.svg"
+								alt="Webstep"
+								class="img-fluid mt-4 mb-2"
+								style={{ maxWidth: '300px' }}
+							/>
+						</a>
+						<br />
+						Gold Sponsor
+					</p>
+					<p>
+						<a
+							href="https://www.folio.no/"
+							rel="friend met noopener noreferrer"
+							target="_blank"
+						>
+							<img
+								src="./static/folio.svg"
+								alt="Folio"
+								class="img-fluid mt-4 mb-2"
+								style={{ maxWidth: '300px', width: '100%' }}
+							/>
+						</a>
+						<br />
+						Gold Sponsor
+					</p>
+					<p>
+						<a
 							href="https://www.rebel.no/"
 							rel="friend met noopener noreferrer"
 							target="_blank"
@@ -62,6 +94,22 @@ export const Sponsors = () => (
 					</p>
 					<p>
 						<a
+							href="https://www.redpill-linpro.com/"
+							rel="friend met noopener noreferrer"
+							target="_blank"
+						>
+							<img
+								src="./static/redpill-linpro.svg"
+								alt="Redpill Linpro"
+								class="img-fluid mt-4 mb-2"
+								style={{ maxWidth: '300px' }}
+							/>
+						</a>
+						<br />
+						Silver Sponsor
+					</p>
+					<p>
+						<a
 							href="https://www.aplia.no/"
 							rel="friend met noopener noreferrer"
 							target="_blank"
@@ -78,6 +126,7 @@ export const Sponsors = () => (
 					</p>
 				</div>
 			</div>
+
 			<div class="row py-md-5">
 				<div class="col-12 col-lg-6 offset-lg-3">
 					<p>
