@@ -1,12 +1,8 @@
 ---
 name: Ólafur Waage
 photo: https://cdn.sanity.io/images/q0ipzqdg/production/ac52c69e83ec7328493f1aeaa5bdc4e027be7267-638x705.png
-linkedIn: olafurw
 pronouns: he/him
-homepage: https://olafurw.com/
-gitHub: olafurw
-mastodon: https://mastodon.social/@olafurw
-bluesky: olafurw.bsky.social
+homepage: https://linktr.ee/olafurw
 events:
   - 2024
 ---
