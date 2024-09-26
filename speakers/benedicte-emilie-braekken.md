@@ -1,10 +1,14 @@
 ---
 name: Benedicte Emilie Brækken
-photo: https://cdn.sanity.io/images/q0ipzqdg/production/8523e21c5be118751445958789434e96daa6ae20-3333x3333.jpg
+photo: https://cdn.sanity.io/images/q0ipzqdg/production/8829c18aa287156636c2ca4b3e5633e6d9742834-400x400.jpg
 mastodon: https://mastodon.kodeklang.social/@benedicte
 linkedIn: benedicte-emilie
+homepage: https://www.kodeklang.no/
+pronouns: she/her
+email: benedicte@kodeklang.no
 events:
   - 2023
+  - 2024
 ---
 
-Benedicte lives for the command line! 👩‍💻 She's one of those people who still use mutt 😅 And for those of you in the know, that should be enough ethos. When COVID hit, she got super passionate about home office video conferencing gear 🎥, and spent most of her paycheck on DACs, microphones and cameras. This, among other things, sparked a deep passion for all things video, streaming, and recording, which she's looking forward to share with you all! 🎉
+Full stack developer and tech lead with a ❤️ for people, simplification and solving real-world problems. Founder of Kodeklang, ex-CTO of fintech startup Kron. And experience from companies like FINN, NRK and the University of Oslo. By night musical theatre lover, part time mezzo-soprano 🎶 and video game enthusiast 🕹️
