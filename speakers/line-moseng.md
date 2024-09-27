@@ -4,7 +4,9 @@ homepage: https://moseng.org/
 pronouns: she/her
 photo: https://cdn.sanity.io/images/q0ipzqdg/production/c62467e65f15d4bff3268599022ad6c73da4235f-2824x2580.png
 twitter: linemoseng
+gitHub: linemos
 events:
+  - 2024
   - 2023
 ---
 
