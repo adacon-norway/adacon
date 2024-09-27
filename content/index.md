@@ -50,7 +50,7 @@ The agenda is subject to change.
 |     17:55 | Speaker 21                                                                                                                              |
 |     18:15 | Outro                                                                                                                                   |
 |     18:25 | **End**                                                                                                                                 |
-|     18:25 | **After-conference hangout** with food and drinks at [Skråplanet](https://skraplanet.no/) (in the same building)                        |
+|     18:25 | **After-conference hangout** with food and drinks at _Skråplanet_ (downstairs in the same building)                                     |
 
 ## Press corner
 
