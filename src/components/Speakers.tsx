@@ -28,13 +28,6 @@ export const Speakers = ({ speakers }: { speakers: Speaker[] }) => {
 						<SpeakerCard speaker={speaker} key={speaker.slug} />
 					))}
 				</div>
-				<div class="row">
-					<div class="col">
-						<p class="text-center text-white		">
-							<em>More speakers coming soon...</em>
-						</p>
-					</div>
-				</div>
 
 				{hosts.length > 0 && (
 					<div class="row text-center py-4 text-white ">

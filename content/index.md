@@ -14,43 +14,43 @@ venue is Rebel, Universitetsgata 2, 0164 Oslo.
 
 ## Agenda
 
-The agenda is subject to change.
+_The agenda is subject to change._
 
-| Time slot | Speaker & Title                                                                                                                         |
-| --------: | --------------------------------------------------------------------------------------------------------------------------------------- |
-|      8:30 | Doors open                                                                                                                              |
-|      8:55 | [Patricia Aas](/speaker/patricia-aas): Opening of AdaCon Norway 2024                                                                    |
-|      9:00 | Speaker 01                                                                                                                              |
-|      9:20 | Speaker 02                                                                                                                              |
-|      9:40 | Speaker 03                                                                                                                              |
-|     10:00 | **Break**                                                                                                                               |
-|     10:15 | Speaker 04                                                                                                                              |
-|     10:35 | Speaker 05                                                                                                                              |
-|     10:55 | Speaker 06                                                                                                                              |
-|     11:15 | Speaker 07                                                                                                                              |
-|     11:35 | **Break**                                                                                                                               |
-|     11:50 | Speaker 08                                                                                                                              |
-|     12:10 | Speaker 09                                                                                                                              |
-|     12:30 | Speaker 10                                                                                                                              |
-|     12:50 | **Lunch at Hangout**                                                                                                                    |
-|     13:35 | Finn.no: Announcing the [Female Developer of the Year 2024](https://www.finn.no/jobbeifinn/teknologi/female-developer-of-the-year-2024) |
-|     13:50 | Speaker 11                                                                                                                              |
-|     14:10 | Speaker 12                                                                                                                              |
-|     14:30 | Speaker 13                                                                                                                              |
-|     14:50 | **Break**                                                                                                                               |
-|     15:05 | Speaker 14                                                                                                                              |
-|     15:25 | Speaker 15                                                                                                                              |
-|     15:45 | Speaker 16                                                                                                                              |
-|     16:05 | **Break**                                                                                                                               |
-|     16:20 | Speaker 17                                                                                                                              |
-|     16:40 | Speaker 18                                                                                                                              |
-|     17:00 | Speaker 19                                                                                                                              |
-|     17:20 | **Break**                                                                                                                               |
-|     17:35 | Speaker 20                                                                                                                              |
-|     17:55 | Speaker 21                                                                                                                              |
-|     18:15 | Outro                                                                                                                                   |
-|     18:25 | **End**                                                                                                                                 |
-|     18:25 | **After-conference hangout** with food and drinks at _Skråplanet_ (downstairs in the same building)                                     |
+| Time slot | Speaker & Title                                                                                                                                                                                                    |
+| --------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|      8:30 | Doors open                                                                                                                                                                                                         |
+|      8:55 | [Patricia Aas](/speaker/patricia-aas): Opening of AdaCon Norway 2024                                                                                                                                               |
+|      9:00 | [Line Moseng (she/her): Continuous delivery and well-being](https://adacon.no/talk/line-moseng-continuous-delivery-and-well-being/)                                                                                |
+|      9:20 | [Ólafur Waage (he/him): Your legacy system's legacy system](https://adacon.no/talk/%C3%B3lafur-waage-your-legacy-systems-legacy-system)                                                                            |
+|      9:40 | [Elise Kristiansen (she/her): 10 Reasons Your Application Isn't Accessible and What You Can Do About It](https://adacon.no/talk/elise-kristiansen-ten-reasonse-your-application-is-not-accessible/)                |
+|     10:00 | **Break**                                                                                                                                                                                                          |
+|     10:15 | [Anna Wojciechowska (she): What it takes to build a sensor for a software "engineer"](https://adacon.no/talk/anna-wojciechowska-building-a-sensor-as-a-software-engineer/)                                         |
+|     10:35 | [Haimanot Tekie (she/her): Learning React as a Junior Backend Developer: The Struggles I Faced and What I Wish I Knew](https://adacon.no/talk/haimanot-tekie-learning-react-as-a-junior-backend-developer/)        |
+|     10:55 | [Nora Tessem](https://adacon.no/speaker/nora-tessem/): _TBA_                                                                                                                                                       |
+|     11:15 | [Egwene Tegelaár-Breiby (she/her)](https://adacon.no/speaker/egwene-tegela%C3%A1r-breiby/): _TBA_                                                                                                                  |
+|     11:35 | **Break**                                                                                                                                                                                                          |
+|     11:50 | [Torunn Flo (she/her/hers)](https://adacon.no/speaker/torunn-flo/): _TBA_                                                                                                                                          |
+|     12:10 | [Helén Persson (she/her/they/them): A short journey with mob programming](https://adacon.no/talk/hel%C3%A9n-persson-a-short-journey-with-mobprogramming/)                                                          |
+|     12:30 | [Ågot Stornes (they/them): Where is the documentation?](https://adacon.no/talk/%C3%A5got-stornes-where-is-the-documentation/)                                                                                      |
+|     12:50 | **Lunch at Hangout**                                                                                                                                                                                               |
+|     13:35 | Finn.no: Announcing the [Female Developer of the Year 2024](https://www.finn.no/jobbeifinn/teknologi/female-developer-of-the-year-2024)                                                                            |
+|     13:50 | [Ruth Merethe Granevang (she/her): Creating game addons](https://adacon.no/talk/ruth-merethe-granevang-creating-game-addons/)                                                                                      |
+|     14:10 | [Ingrid Grønlie Guren (she/her): Tips to become a (slightly) better web developer](https://adacon.no/talk/ingrid-gr%C3%B8nlie-guren-tips-to-become-a-slightly-better-webdeveloper/)                                |
+|     14:30 | [Sarah Fossheim (she/her): Introduction to dataviz accessibility](https://adacon.no/talk/sarah-fossheim-introduction-to-dataviz-accessibility/)                                                                    |
+|     14:50 | **Break**                                                                                                                                                                                                          |
+|     15:05 | [Benedicte Emilie Brækken (she/her): From outer web to inner hardware – a webdev's journey into GameBoy programming](https://adacon.no/talk/benedicte-emilie-braekken-a-webdevs-journey-into-gameboy-programming/) |
+|     15:25 | [Caroline Winther (she/her)](https://adacon.no/speaker/caroline-winther/): _TBA_                                                                                                                                   |
+|     15:45 | [Kate Kuzmina (she/her): Building a Data App and the Growth Mindset](https://adacon.no/talk/kate-kuzmina-building-a-data-app-and-the-growth-mindset/)                                                              |
+|     16:05 | **Break**                                                                                                                                                                                                          |
+|     16:20 | [Anshika Koul (she/her): Kotlin Multiplatform's Cross-Platform Brilliance at Norway's 377-Year-Old National Postal Service](https://adacon.no/talk/anshika-koul-kotlin-at-posten/)                                 |
+|     16:40 | [Nora Tomas (she/her): Secure code at DevOps speed: How security can drive non functional requirements](https://adacon.no/talk/nora-thomas-secure-code-at-devops-speed/)                                           |
+|     17:00 | Inger Skjærholt: _TBA_                                                                                                                                                                                             |
+|     17:20 | **Break**                                                                                                                                                                                                          |
+|     17:35 | [Lotte Johansen (she/her): From Data Mess to Data Mesh](https://adacon.no/talk/lotte-johansen-from-data-mess-to-data-mesh/)                                                                                        |
+|     17:55 | [Aurora Christine Hofman (she/her): Algebra!? You already know it!](https://adacon.no/talk/aurora-christine-hofman-algebra-you-already-know-it/)                                                                   |
+|     18:15 | Outro                                                                                                                                                                                                              |
+|     18:25 | **End**                                                                                                                                                                                                            |
+|     18:25 | **After-conference hangout** with food and drinks at _Skråplanet_ (downstairs in the same building)                                                                                                                |
 
 ## Press corner
 
