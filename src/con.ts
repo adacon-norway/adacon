@@ -18,7 +18,7 @@ export const Con: {
 	statistics: {
 		attendees: 200,
 		days: 1,
-		talks: 21,
+		talks: 20,
 	},
 	notificationLink: new URL('https://forms.gle/tBWenmbV58g9tguZ6'),
 	ticketsLink: new URL('https://tikkio.com/tickets/50052-adacon-norway-2024'),
