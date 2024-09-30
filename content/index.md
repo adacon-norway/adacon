@@ -20,7 +20,7 @@ _The agenda is subject to change._
 | --------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 |      8:30 | Doors open                                                                                                                                                                                                         |
 |      8:55 | [Patricia Aas](/speaker/patricia-aas): Opening of AdaCon Norway 2024                                                                                                                                               |
-|      9:00 | [Aurora Christine Hofman (she/her): Algebra!? You already know it!](https://adacon.no/talk/aurora-christine-hofman-algebra-you-already-know-it/)                                                                   |
+|      9:00 | [Lotte Johansen (she/her): From Data Mess to Data Mesh](https://adacon.no/talk/lotte-johansen-from-data-mess-to-data-mesh/)                                                                                        |
 |      9:20 | [Ólafur Waage (he/him): Your legacy system's legacy system](https://adacon.no/talk/%C3%B3lafur-waage-your-legacy-systems-legacy-system)                                                                            |
 |      9:40 | [Elise Kristiansen (she/her): 10 Reasons Your Application Isn't Accessible and What You Can Do About It](https://adacon.no/talk/elise-kristiansen-ten-reasonse-your-application-is-not-accessible/)                |
 |     10:00 | **Break**                                                                                                                                                                                                          |
@@ -46,10 +46,10 @@ _The agenda is subject to change._
 |     16:40 | [Nora Tomas (she/her): Secure code at DevOps speed: How security can drive non functional requirements](https://adacon.no/talk/nora-thomas-secure-code-at-devops-speed/)                                           |
 |     17:00 | Inger Skjærholt: _TBA_                                                                                                                                                                                             |
 |     17:20 | **Break**                                                                                                                                                                                                          |
-|     17:35 | [Lotte Johansen (she/her): From Data Mess to Data Mesh](https://adacon.no/talk/lotte-johansen-from-data-mess-to-data-mesh/)                                                                                        |
-|     18:15 | Outro                                                                                                                                                                                                              |
-|     18:25 | **End**                                                                                                                                                                                                            |
-|     18:25 | **After-conference hangout** with food and drinks at _Skråplanet_ (downstairs in the same building)                                                                                                                |
+|     17:35 | [Aurora Christine Hofman (she/her): Algebra!? You already know it!](https://adacon.no/talk/aurora-christine-hofman-algebra-you-already-know-it/)                                                                   |
+|     17:55 | Outro                                                                                                                                                                                                              |
+|     18:00 | **End**                                                                                                                                                                                                            |
+|     18:00 | **After-conference hangout** with food and drinks at _Skråplanet_ (downstairs in the same building)                                                                                                                |
 
 ## Press corner
 
