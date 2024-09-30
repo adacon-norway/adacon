@@ -6,7 +6,6 @@ photo: https://cdn.sanity.io/images/q0ipzqdg/production/c62467e65f15d4bff3268599
 twitter: linemoseng
 gitHub: linemos
 events:
-  - 2024
   - 2023
 ---
 
