@@ -1,6 +1,6 @@
 ---
 name: Lorena Carthy
-photo: https://cdn.sanity.io/images/q0ipzqdg/production/7ad59161a01546d9bf735f0dcfa1e913ba1e6077-512x512.jpg
+photo: https://cdn.sanity.io/images/q0ipzqdg/production/e7712789e1cfe3d0ab7480722745be28b8e52115-533x533.jpg
 pronouns: she/her
 events:
   - 2019
