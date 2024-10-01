@@ -94,6 +94,22 @@ export const Sponsors = () => (
 					</p>
 					<p>
 						<a
+							href="https://macsimum.no/"
+							rel="friend met noopener noreferrer"
+							target="_blank"
+						>
+							<img
+								src="./static/macsimum.svg"
+								alt="Macsimum"
+								class="img-fluid mt-4 mb-2"
+								style={{ maxWidth: '300px' }}
+							/>
+						</a>
+						<br />
+						Event management sponsor
+					</p>
+					<p>
+						<a
 							href="https://ndcconferences.com/"
 							rel="friend met noopener noreferrer"
 							target="_blank"
