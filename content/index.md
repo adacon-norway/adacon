@@ -29,7 +29,7 @@ _The agenda is subject to change._
 |     10:55 | [Nora Tessem](/speaker/nora-tessem/): _TBA_                                                                                                                                                       |
 |     11:15 | [Egwene Tegelaár-Breiby (she/her)](/speaker/egwene-tegela%C3%A1r-breiby/): _TBA_                                                                                                                  |
 |     11:35 | **Break**                                                                                                                                                                                         |
-|     11:50 | [Torunn Flo (she/her/hers)](/speaker/torunn-flo/): _TBA_                                                                                                                                          |
+|     11:50 | [Torunn Flo (she/her/hers): Quality First: A discussion on best practices for software testing](torunn-flo-quality-first-a-discussion-on-best-practices-for-software-testing.md)                  |
 |     12:10 | [Helén Persson (she/her/they/them): A short journey with mob programming](/talk/hel%C3%A9n-persson-a-short-journey-with-mobprogramming/)                                                          |
 |     12:30 | [Ågot Stornes (they/them): Where is the documentation?](/talk/%C3%A5got-stornes-where-is-the-documentation/)                                                                                      |
 |     12:50 | **Lunch at Hangout**                                                                                                                                                                              |
