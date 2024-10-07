@@ -1,5 +1,5 @@
 ---
-title: "Secure code at DevOps speed: How security can drive non functional requirements"
+title: Beyond Safety - How security can enhance developer experience
 speaker: nora-thomas
 ---
 
