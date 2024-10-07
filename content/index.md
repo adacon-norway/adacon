@@ -26,8 +26,8 @@ _The agenda is subject to change._
 |     10:00 | **Break**                                                                                                                                                                                         |
 |     10:15 | [Anna Wojciechowska (she): What it takes to build a sensor for a software "engineer"](/talk/anna-wojciechowska-building-a-sensor-as-a-software-engineer/)                                         |
 |     10:35 | [Haimanot Tekie (she/her): Learning React as a Junior Backend Developer: The Struggles I Faced and What I Wish I Knew](/talk/haimanot-tekie-learning-react-as-a-junior-backend-developer/)        |
-|     10:55 | [Nora Tessem](/speaker/nora-tessem/): _TBA_                                                                                                                                                       |
-|     11:15 | [Egwene Tegelaár-Breiby (she/her)](/speaker/egwene-tegela%C3%A1r-breiby/): _TBA_                                                                                                                  |
+|     10:55 | [Nora Tessem (they/them/she/her): Perpetual Calendar of Power](/talk/nora-tessem-perpetual-calendar-of-power)                                                                                     |
+|     11:15 | [Egwene Tegelaár-Breiby (she/her): Only doing the thing, is doing the thing](/talk/egwene-tegela%C3%A1r-breiby-only-doing-the-thing-is-doing-the-thing)                                           |
 |     11:35 | **Break**                                                                                                                                                                                         |
 |     11:50 | [Torunn Flo (she/her/hers): Quality First: A discussion on best practices for software testing](/talk/torunn-flo-quality-first-a-discussion-on-best-practices-for-software-testing/)              |
 |     12:10 | [Helén Persson (she/her/they/them): A short journey with mob programming](/talk/hel%C3%A9n-persson-a-short-journey-with-mobprogramming/)                                                          |
