@@ -19,7 +19,7 @@ _The agenda is subject to change._
 | Time slot | Speaker & Title                                                                                                                                                                                   |
 | --------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |      8:30 | Doors open                                                                                                                                                                                        |
-|      8:55 | [Patricia Aas](/speaker/patricia-aas): Opening of AdaCon Norway 2024                                                                                                                              |
+|      8:55 | [Markus Tacker](/speaker/markus-tacker): Opening of AdaCon Norway 2024                                                                                                                            |
 |      9:00 | [Lotte Johansen (she/her): From Data Mess to Data Mesh](/talk/lotte-johansen-from-data-mess-to-data-mesh/)                                                                                        |
 |      9:20 | [Ólafur Waage (he/him): Your legacy system's legacy system](/talk/%C3%B3lafur-waage-your-legacy-systems-legacy-system)                                                                            |
 |      9:40 | [Elise Kristiansen (she/her): 10 Reasons Your Application Isn't Accessible and What You Can Do About It](/talk/elise-kristiansen-ten-reasonse-your-application-is-not-accessible/)                |
