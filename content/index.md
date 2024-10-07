@@ -39,7 +39,7 @@ _The agenda is subject to change._
 |     14:30 | [Sarah Fossheim (they/them): Introduction to dataviz accessibility](/talk/sarah-fossheim-introduction-to-dataviz-accessibility/)                                                                  |
 |     14:50 | **Break**                                                                                                                                                                                         |
 |     15:05 | [Benedicte Emilie Brækken (she/her): From outer web to inner hardware – a webdev's journey into GameBoy programming](/talk/benedicte-emilie-braekken-a-webdevs-journey-into-gameboy-programming/) |
-|     15:25 | [Caroline Winther (she/her): Data spaghetti to data buffet with](/talk/caroline-winther-data-spaghetti-to-data-buffet-with-dbt) dbt                                                               |
+|     15:25 | [Caroline Winther (she/her): Data spaghetti to data buffet with dbt](/talk/caroline-winther-data-spaghetti-to-data-buffet-with-dbt)                                                               |
 |     15:45 | [Kate Kuzmina (she/her): Building a Data App and the Growth Mindset](/talk/kate-kuzmina-building-a-data-app-and-the-growth-mindset/)                                                              |
 |     16:05 | **Break**                                                                                                                                                                                         |
 |     16:20 | [Anshika Koul (she/her): Kotlin Multiplatform's Cross-Platform Brilliance at Norway's 377-Year-Old National Postal Service](/talk/anshika-koul-kotlin-at-posten/)                                 |
