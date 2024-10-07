@@ -2,7 +2,7 @@ export const ContactForm = () => {
 	return (
 		<form action="https://formspree.io/f/mjvdwjwp" method="POST">
 			<div class="mb-3">
-				<label htmlFor="email" class="form-label">
+				<label for="email" class="form-label">
 					Your email address
 				</label>
 				<input
@@ -19,7 +19,7 @@ export const ContactForm = () => {
 				</div>
 			</div>
 			<div class="mb-3">
-				<label htmlFor="name" class="form-label">
+				<label for="name" class="form-label">
 					Your name
 				</label>
 				<input
@@ -37,7 +37,7 @@ export const ContactForm = () => {
 				</div>
 			</div>
 			<div class="mb-3">
-				<label htmlFor="message" class="form-label">
+				<label for="message" class="form-label">
 					Your message
 				</label>
 				<textarea

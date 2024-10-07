@@ -1,6 +1,24 @@
 div.talk-slide {
     display: flex;
-    flex-direction: row-reverse;
+}
+
+div.talk-slide main {
+    width: 70%;
+    background-color: var(--color-highlight);
+    color: white;
+}
+
+div.talk-slide main p {
+    color: inherit;
+    font-size: 25px;
+}
+
+div.talk-slide aside {
+    width: 30%;
+    background-color: var(--color-dim-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 div.talk-slide main,
@@ -8,27 +26,47 @@ div.talk-slide aside {
     height: 100vh;
 }
 
-div.talk-slide main {
-    width: 40%;
+div.talk-slide img.speaker {
+    max-width: 350px;
+    margin: 0 0 2rem 0;
 }
 
-div.talk-slide aside {
-    width: 60%;
-}
 
-aside .container .row:nth-child(2) {
-    display: flex;
-}
-
-aside .container .row:nth-child(2)>div {
-    width: calc(100% - 17%);
-}
-
-aside .container .row:nth-child(2) img {
-    max-width: 300px;
-    margin-top: 2rem;
-}
-
-aside .container .row:nth-child(2)>div:nth-child(2) {
+div.talk-slide header {
     text-align: center;
+}
+
+div.talk-slide h1 {
+    padding: 0;
+    margin: 2rem 0 0 0;
+    font-size: 400%;
+}
+
+div.talk-slide p.pronouns {
+    opacity: 0.8;
+}
+
+div.talk-slide main .speaker-links {
+    text-align: center;
+}
+
+div.talk-slide main .speaker-links a {
+    color: inherit;
+}
+
+div.talk-slide main section {
+    margin: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+div.talk-slide aside h2 {
+    padding: 0;
+    margin: 2rem 2rem 0 2rem;
+    font-size: 300%;
+    color: var(--color-highlight)
+}
+
+div.talk-slide aside .qr-code {
+    margin: 2rem;
 }

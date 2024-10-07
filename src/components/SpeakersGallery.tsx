@@ -1,6 +1,6 @@
 import type { Speaker } from '../../pages/content/+onBeforeRender'
 import { SpeakerPhotoPlaceholder } from './SpeakerPhotoPlaceholder'
-import { SpeakerPhoto } from './SpeakerPhoto'
+import { LayzLoadingSpeakerPhoto } from './LayzLoadingSpeakerPhoto'
 
 import './Speakers.css'
 import './SpeakersGallery.css'
@@ -28,7 +28,9 @@ const SpeakerCard = ({ speaker }: { speaker: Speaker }) => (
 	>
 		<div>
 			<a href={`./speaker/${speaker.slug}`} class="text-decoration-none">
-				{speaker.photo !== undefined && <SpeakerPhoto speaker={speaker} />}
+				{speaker.photo !== undefined && (
+					<LayzLoadingSpeakerPhoto speaker={speaker} />
+				)}
 				{speaker.photo === undefined && (
 					<SpeakerPhotoPlaceholder speaker={speaker} />
 				)}

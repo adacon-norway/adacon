@@ -1,11 +1,11 @@
-import { Footer } from '#components/Footer'
-import { Header } from '#components/Header'
-import { HeaderNav } from '#components/HeaderNav'
+import { Footer } from '#components/Footer.js'
+import { Header } from '#components/Header.js'
+import { HeaderNav } from '#components/HeaderNav.js'
 import { AtSign, Blocks, Github, Home, Linkedin, Twitter } from 'lucide-preact'
-import type { Speaker as TSpeaker } from '../../pages/content/+onBeforeRender'
-import './Speaker.css'
-import { Mastodon } from '#components/Mastodon'
-import type { Talk } from '../../pages/talk/+onBeforeRender'
+import type { Speaker as TSpeaker } from '../../pages/content/+onBeforeRender.js'
+import { Mastodon } from '#components/Mastodon.js'
+import type { Talk } from '../../pages/talk/+onBeforeRender.js'
+import { SpeakerPhoto } from '../components/SpeakerPhoto.js'
 
 export const Speaker = ({
 	speaker,
@@ -59,110 +59,106 @@ export const SpeakerInfo = ({
 				)}
 			</div>
 			<div class="col-lg-3 mt-4 mt-lg-0 offset-lg-1">
-				{speaker.photo !== undefined && (
-					<img
-						alt={speaker.name}
-						src={`${speaker.photo}?${new URLSearchParams({
-							fm: 'webp',
-							w: '500',
-							h: '500',
-							q: '80',
-							crop: 'center',
-							fit: 'crop',
-						}).toString()}`}
-						class="speaker mb-4"
-						style={{
-							transform: `rotate(${Math.random() * 20 - 10}deg)`,
-						}}
-					/>
-				)}
-				{speaker.homepage !== undefined && (
-					<p class="mb-1">
-						<Home />{' '}
-						<a
-							href={speaker.homepage}
-							target="_blank"
-							rel="noreferrer noopener friend"
-							title={`${speaker.name}'s Homepage`}
-						>
-							{speaker.homepage
-								.toString()
-								.replace(/^https?:\/\//, '')
-								.replace(/\/$/, '')}
-						</a>
-					</p>
-				)}
-				{speaker.linkedIn !== undefined && (
-					<p class="mb-1">
-						<Linkedin />{' '}
-						<a
-							href={`https://linkedin.com/in/${speaker.linkedIn}`}
-							target="_blank"
-							rel="noreferrer noopener friend"
-							title={`${speaker.name} on LinkedIn`}
-						>
-							{speaker.linkedIn}
-						</a>
-					</p>
-				)}
-				{speaker.gitHub !== undefined && (
-					<p class="mb-1">
-						<Github />{' '}
-						<a
-							href={`https://github.com/${speaker.gitHub}`}
-							target="_blank"
-							rel="noreferrer noopener friend"
-							title={`${speaker.name} on GitHub`}
-						>
-							{speaker.gitHub}
-						</a>
-					</p>
-				)}
-				{speaker.email !== undefined && (
-					<p class="mb-1">
-						<AtSign />{' '}
-						<a
-							href={`mailto:${speaker.email}`}
-							target="_blank"
-							rel="noreferrer noopener friend"
-							title={`${speaker.name}'s email`}
-						>
-							{speaker.email}
-						</a>
-					</p>
-				)}
-				{speaker.mastodon !== undefined && (
-					<p class="mb-1">
-						<Mastodon style={{ width: '24px', height: '24px' }} />{' '}
-						<abbr title={`${speaker.name}'s Mastodon profile`}>
-							<a
-								href={speaker.mastodon}
-								target="_blank"
-								rel="noreferrer noopener friend"
-								title={`${speaker.name}'s Mastodon profile`}
-							>
-								{speaker.mastodon.toString().replace(/^https?:\/\//, '')}
-							</a>
-						</abbr>
-					</p>
-				)}
-				{speaker.twitter !== undefined && (
-					<p class="mb-1">
-						<Twitter />{' '}
-						<abbr title={`${speaker.name}'s Twitter handle`}>
-							@{speaker.twitter}
-						</abbr>
-					</p>
-				)}
-				{speaker.bluesky !== undefined && (
-					<p class="mb-1">
-						<Blocks />{' '}
-						<abbr title={`${speaker.name}'s Bluesky handle`}>
-							@{speaker.bluesky}
-						</abbr>
-					</p>
-				)}
+				<SpeakerPhoto speaker={speaker} class="mb-4" />
+				<SpeakerLinks speaker={speaker} />
 			</div>
 		</div>
+	</div>
+)
+
+const httpsPrefix = /^https?:\/\//
+const slashEnd = /\/$/
+
+export const SpeakerLinks = ({
+	speaker,
+	class: className,
+}: { class?: string; speaker: TSpeaker }) => (
+	<div class={`${className ?? ''} speaker-links`}>
+		{speaker.homepage !== undefined && (
+			<p class="mb-1">
+				<Home />{' '}
+				<a
+					href={speaker.homepage}
+					target="_blank"
+					rel="noreferrer noopener friend"
+					title={`${speaker.name}'s Homepage`}
+				>
+					{speaker.homepage
+						.toString()
+						.replace(httpsPrefix, '')
+						.replace(slashEnd, '')}
+				</a>
+			</p>
+		)}
+		{speaker.linkedIn !== undefined && (
+			<p class="mb-1">
+				<Linkedin />{' '}
+				<a
+					href={`https://linkedin.com/in/${speaker.linkedIn}`}
+					target="_blank"
+					rel="noreferrer noopener friend"
+					title={`${speaker.name} on LinkedIn`}
+				>
+					{speaker.linkedIn}
+				</a>
+			</p>
+		)}
+		{speaker.gitHub !== undefined && (
+			<p class="mb-1">
+				<Github />{' '}
+				<a
+					href={`https://github.com/${speaker.gitHub}`}
+					target="_blank"
+					rel="noreferrer noopener friend"
+					title={`${speaker.name} on GitHub`}
+				>
+					{speaker.gitHub}
+				</a>
+			</p>
+		)}
+		{speaker.email !== undefined && (
+			<p class="mb-1">
+				<AtSign />{' '}
+				<a
+					href={`mailto:${speaker.email}`}
+					target="_blank"
+					rel="noreferrer noopener friend"
+					title={`${speaker.name}'s email`}
+				>
+					{speaker.email}
+				</a>
+			</p>
+		)}
+		{speaker.mastodon !== undefined && (
+			<p class="mb-1">
+				<Mastodon style={{ width: '24px', height: '24px' }} />{' '}
+				<abbr title={`${speaker.name}'s Mastodon profile`}>
+					<a
+						href={speaker.mastodon}
+						target="_blank"
+						rel="noreferrer noopener friend"
+						title={`${speaker.name}'s Mastodon profile`}
+					>
+						{speaker.mastodon.toString().replace(httpsPrefix, '')}
+					</a>
+				</abbr>
+			</p>
+		)}
+		{speaker.twitter !== undefined && (
+			<p class="mb-1">
+				<Twitter />{' '}
+				<abbr title={`${speaker.name}'s Twitter handle`}>
+					@{speaker.twitter}
+				</abbr>
+			</p>
+		)}
+		{speaker.bluesky !== undefined && (
+			<p class="mb-1">
+				<Blocks />{' '}
+				<abbr title={`${speaker.name}'s Bluesky handle`}>
+					@{speaker.bluesky}
+				</abbr>
+			</p>
+		)}
 	</div>
 )

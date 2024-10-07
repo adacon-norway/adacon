@@ -1,42 +1,26 @@
-import { ViewportObserver } from 'preact-intersection-observer'
-import { useEffect, useState } from 'preact/hooks'
-import type { Speaker } from '../../pages/content/+onBeforeRender'
-import { SpeakerPhotoPlaceholder } from './SpeakerPhotoPlaceholder'
+import type { Speaker as TSpeaker } from '../../pages/content/+onBeforeRender'
 
-export const SpeakerPhoto = ({ speaker }: { speaker: Speaker }) => {
-	const [imageUrl, setImageURL] = useState<string>()
-	const [size, setSize] = useState<number>()
+import '#components/SpeakerPhoto.css'
 
-	useEffect(() => {
-		if (size === undefined) return
-		const photoUrl = `${speaker.photo}?${new URLSearchParams({
-			fm: 'webp',
-			w: size.toString(),
-			h: size.toString(),
-			q: '80',
-			crop: 'center',
-			fit: 'crop',
-		}).toString()}`
-
-		fetch(photoUrl, { mode: 'no-cors' }).then(() => {
-			setImageURL(photoUrl)
-		})
-	}, [size, speaker])
-
-	if (imageUrl !== undefined) {
-		return <img alt={speaker.name} src={imageUrl} />
-	}
+export const SpeakerPhoto = ({
+	speaker,
+	class: className,
+}: { class?: string; speaker: TSpeaker }) => {
+	if (speaker.photo === undefined) return null
 	return (
-		<ViewportObserver
-			render={({ inView, entry }) => {
-				if (inView)
-					setSize(
-						Math.floor(
-							(entry?.boundingClientRect?.width ?? 250) *
-								(window.devicePixelRatio ?? 1),
-						),
-					)
-				return <SpeakerPhotoPlaceholder speaker={speaker} />
+		<img
+			alt={speaker.name}
+			src={`${speaker.photo}?${new URLSearchParams({
+				fm: 'webp',
+				w: '500',
+				h: '500',
+				q: '80',
+				crop: 'center',
+				fit: 'crop',
+			}).toString()}`}
+			class={`speaker ${className ?? ''}`}
+			style={{
+				transform: `rotate(${Math.random() * 20 - 10}deg)`,
 			}}
 		/>
 	)

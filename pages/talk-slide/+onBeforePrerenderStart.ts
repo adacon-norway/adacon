@@ -1,4 +1,6 @@
+// biome-ignore lint/correctness/noNodejsModules: needed here
 import { readdir } from 'node:fs/promises'
+// biome-ignore lint/correctness/noNodejsModules: needed here
 import path from 'node:path'
 
 export const onBeforePrerenderStart = async (): Promise<string[]> =>

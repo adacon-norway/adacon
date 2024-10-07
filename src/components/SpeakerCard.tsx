@@ -1,8 +1,9 @@
 import { AtSign, Github, Home, Linkedin, MoveRight } from 'lucide-preact'
-import type { Speaker } from '../../pages/content/+onBeforeRender'
-import { SpeakerPhoto } from './SpeakerPhoto'
-import { SpeakerPhotoPlaceholder } from './SpeakerPhotoPlaceholder'
-import { Mastodon } from './Mastodon'
+import type { Speaker } from '../../pages/content/+onBeforeRender.js'
+import { LayzLoadingSpeakerPhoto } from './LayzLoadingSpeakerPhoto.js'
+import { SpeakerPhotoPlaceholder } from './SpeakerPhotoPlaceholder.js'
+import { Mastodon } from './Mastodon.js'
+import type { VNode } from 'preact'
 
 export const SpeakerCard = ({ speaker }: { speaker: Speaker }) => (
 	<div
@@ -13,7 +14,9 @@ export const SpeakerCard = ({ speaker }: { speaker: Speaker }) => (
 	>
 		<div>
 			<a href={`./speaker/${speaker.slug}`} class="text-decoration-none">
-				{speaker.photo !== undefined && <SpeakerPhoto speaker={speaker} />}
+				{speaker.photo !== undefined && (
+					<LayzLoadingSpeakerPhoto speaker={speaker} />
+				)}
 				{speaker.photo === undefined && (
 					<SpeakerPhotoPlaceholder speaker={speaker} />
 				)}
@@ -38,7 +41,7 @@ export const SpeakerCard = ({ speaker }: { speaker: Speaker }) => (
 	</div>
 )
 const Links = ({ speaker }: { speaker: Speaker }) => {
-	const links = []
+	const links: VNode<unknown>[] = []
 	if (speaker.homepage !== undefined)
 		links.push(
 			<a
