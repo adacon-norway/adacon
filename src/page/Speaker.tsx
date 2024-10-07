@@ -85,7 +85,10 @@ export const SpeakerInfo = ({
 							rel="noreferrer noopener friend"
 							title={`${speaker.name}'s Homepage`}
 						>
-							Homepage
+							{speaker.homepage
+								.toString()
+								.replace(/^https?:\/\//, '')
+								.replace(/\/$/, '')}
 						</a>
 					</p>
 				)}
@@ -98,7 +101,7 @@ export const SpeakerInfo = ({
 							rel="noreferrer noopener friend"
 							title={`${speaker.name} on LinkedIn`}
 						>
-							LinkedIn
+							{speaker.linkedIn}
 						</a>
 					</p>
 				)}
@@ -111,7 +114,7 @@ export const SpeakerInfo = ({
 							rel="noreferrer noopener friend"
 							title={`${speaker.name} on GitHub`}
 						>
-							GitHub
+							{speaker.gitHub}
 						</a>
 					</p>
 				)}
@@ -138,7 +141,7 @@ export const SpeakerInfo = ({
 								rel="noreferrer noopener friend"
 								title={`${speaker.name}'s Mastodon profile`}
 							>
-								Mastodon
+								{speaker.mastodon.toString().replace(/^https?:\/\//, '')}
 							</a>
 						</abbr>
 					</p>

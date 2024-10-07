@@ -1,0 +1,34 @@
+div.talk-slide {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div.talk-slide main,
+div.talk-slide aside {
+    height: 100vh;
+}
+
+div.talk-slide main {
+    width: 40%;
+}
+
+div.talk-slide aside {
+    width: 60%;
+}
+
+aside .container .row:nth-child(2) {
+    display: flex;
+}
+
+aside .container .row:nth-child(2)>div {
+    width: calc(100% - 17%);
+}
+
+aside .container .row:nth-child(2) img {
+    max-width: 300px;
+    margin-top: 2rem;
+}
+
+aside .container .row:nth-child(2)>div:nth-child(2) {
+    text-align: center;
+}
