@@ -43,7 +43,7 @@ _The agenda is subject to change._
 |     15:45 | [Kate Kuzmina (she/her): Building a Data App and the Growth Mindset](/talk/kate-kuzmina-building-a-data-app-and-the-growth-mindset/)                                                              |
 |     16:05 | **Break**                                                                                                                                                                                         |
 |     16:20 | [Anshika Koul (she/her): Kotlin Multiplatform's Cross-Platform Brilliance at Norway's 377-Year-Old National Postal Service](/talk/anshika-koul-kotlin-at-posten/)                                 |
-|     16:40 | [Nora Tomas (she/her): Beyond Safety - How security can enhance developer experience](/talk/nora-thomas-secure-code-at-devops-speed/)                                                             |
+|     16:40 | [Nora Tomas (she/her): Beyond Safety - How security can enhance developer experience](/talk/nora-thomas-beyond-safety-how-security-can-enhance-developer-experience/)                             |
 |     17:00 | [Inger Skjærholt: Why board games is the perfect way to learn a new (programming) language](/talk/inger-skj%C3%A6rholt-why-board-games-is-the-perfect-way-to-learn-a-new-programming-language/)   |
 |     17:20 | **Break**                                                                                                                                                                                         |
 |     17:35 | [Aurora Christine Hofman (she/her): Algebra!? You already know it!](/talk/aurora-christine-hofman-algebra-you-already-know-it/)                                                                   |
