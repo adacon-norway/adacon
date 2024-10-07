@@ -53,10 +53,10 @@ export const Start = ({
 						/>
 					</div>
 				</div>
+				<LiveStream />
 				<Speakers speakers={speakers} />
 				<Previously speakers={speakers} />
 				{!hasStarted && <Tickets />}
-				<LiveStream />
 				<Sponsors />
 				<Location />
 			</main>
