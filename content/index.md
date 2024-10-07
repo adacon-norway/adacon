@@ -33,7 +33,7 @@ _The agenda is subject to change._
 |     12:10 | [Helén Persson (she/her/they/them): A short journey with mob programming](/talk/hel%C3%A9n-persson-a-short-journey-with-mobprogramming/)                                                          |
 |     12:30 | [Ågot Stornes (they/them): Where is the documentation?](/talk/%C3%A5got-stornes-where-is-the-documentation/)                                                                                      |
 |     12:50 | **Lunch at Hangout**                                                                                                                                                                              |
-|     13:35 | Finn.no: Announcing the [Female Developer of the Year 2024](https://www.finn.no/jobbeifinn/teknologi/female-developer-of-the-year-2024)                                                           |
+|     13:30 | Finn.no: Announcing the [Female Developer of the Year 2024](https://www.finn.no/jobbeifinn/teknologi/female-developer-of-the-year-2024)                                                           |
 |     13:50 | [Ruth Merethe Granevang (she/her): Creating game addons](/talk/ruth-merethe-granevang-creating-game-addons/)                                                                                      |
 |     14:10 | [Ingrid Grønlie Guren (she/her): Tips to become a (slightly) better web developer](/talk/ingrid-gr%C3%B8nlie-guren-tips-to-become-a-slightly-better-webdeveloper/)                                |
 |     14:30 | [Sarah Fossheim (they/them): Introduction to dataviz accessibility](/talk/sarah-fossheim-introduction-to-dataviz-accessibility/)                                                                  |
