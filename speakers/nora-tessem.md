@@ -4,8 +4,10 @@ photo: https://cdn.sanity.io/images/q0ipzqdg/production/e08ddeff40f1ab0a5918ea07
 twitter: NoraTSM
 linkedIn: nora-tessem
 gitHub: Noratsm
+pronouns: they/them/she/her
 events:
   - 2023
+  - 2024
 ---
 
-Nora is a fullstack developer, that dreams of big data and great user experiences. In 2015 she co-founded the Oslo Kodeklubb and has been a part of the task force of Lær Kidsa Koding since. She is currently a consultant at Embriq, where she has gotten the chance to do quite a lot of database related work on in-house projects in the energy sector.
+Nora loves music, coffee, plants, and databases—perhaps in that order. She founded and organized the Oslo Code Club during her university years and even taught coding to children in Perugia, Italy, without knowing a word of Italian. These days, she’s busy bringing smart meter data to the cloud. For this year's presentation she's looking back at a past project; creating a Swiss Army knife of a simulation tool for power grid planners.
