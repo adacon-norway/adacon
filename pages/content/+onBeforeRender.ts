@@ -1,6 +1,10 @@
 import type { Page } from '#context/Pages'
 import { loadMarkdownContent } from '../loadMarkdownContent'
 import type { PageMeta } from '../../renderer/+onRenderHtml'
+export type Role = {
+	name: string
+	order: number
+}
 
 export type Speaker = {
 	name: string
@@ -21,19 +25,16 @@ export type Speaker = {
 	 * @deprecated Avoid, full of Nazis.
 	 */
 	bluesky?: string
-} & (
-	| {
-			role: 'host'
-			order: number
-	  }
-	| {
-			events: number[]
-	  }
-)
+	roles?: Array<Role>
+} & {
+	events: number[]
+}
 
 export type Host = Speaker & {
-	role: 'host'
-	order: number
+	roles: Array<{
+		name: 'host'
+		order: number
+	}>
 }
 
 export type IndexPageProps = { pages: Page[]; page: Page; speakers: Speaker[] }

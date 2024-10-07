@@ -1,7 +1,8 @@
 ---
 name: Patricia Aas
-role: host
-order: 1
+roles:
+  - name: host
+    order: 1
 photo: https://cdn.sanity.io/images/q0ipzqdg/production/229568bea31dde81f9aef33e2938637342802ef4-4024x5030.jpg
 homepage: https://patricia.no/
 linkedIn: psmaas

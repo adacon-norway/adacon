@@ -6,6 +6,9 @@ linkedIn: elisekristiansen
 email: ek@aplia.no
 events:
   - 2024
+roles:
+  - name: host
+    order: 3
 ---
 
 Elise is a senior frontend developer at Aplia and has been involved in a diverse range of projects for seven years. As a consultant, she has worked in and out of various teams, experiencing a wide range of team compositions.

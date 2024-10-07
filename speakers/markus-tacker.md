@@ -1,8 +1,9 @@
 ---
 name: Markus Tacker
 pronouns: he/him
-role: host
-order: 2
+roles:
+  - name: host
+    order: 2
 photo: https://cdn.sanity.io/images/q0ipzqdg/production/d148bee67b48a4fc9fe98be590d5b7c1f31be51d-2631x2630.jpg
 homepage: https://coderbyheart.com/
 linkedIn: markustacker

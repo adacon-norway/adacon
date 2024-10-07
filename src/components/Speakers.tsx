@@ -1,18 +1,24 @@
-import type { Host, Speaker } from '../../pages/content/+onBeforeRender.js'
+import type {
+	Host,
+	Role,
+	Speaker,
+} from '../../pages/content/+onBeforeRender.js'
 import './Speakers.css'
 import { SpeakerCard } from './SpeakerCard.js'
 import { speakersByYear } from '../speakersByYear.js'
 import { Con } from '../con.js'
 
+const findHost = (role: Role) => role.name === 'host'
+
 export const Speakers = ({ speakers }: { speakers: Speaker[] }) => {
 	const year = Con.date.getFullYear()
 	const upcomingSpeakers = speakersByYear(speakers, year)
 	const hosts = speakers
-		.filter((speaker) => 'role' in speaker && speaker.role === 'host')
+		.filter((speaker) => speaker.roles?.find(findHost))
 		.sort(
 			(s1, s2) =>
-				('order' in s1 ? s1.order : Number.MAX_SAFE_INTEGER) -
-				('order' in s2 ? s2.order : Number.MAX_SAFE_INTEGER),
+				(s1.roles?.find(findHost)?.order ?? Number.MAX_SAFE_INTEGER) -
+				(s2.roles?.find(findHost)?.order ?? Number.MAX_SAFE_INTEGER),
 		) as Host[]
 
 	return (
