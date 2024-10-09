@@ -1,6 +1,7 @@
 ---
 title: "Quality First: A discussion on best practices for software testing"
 speaker: torunn-flo
+video: ucHm21eoK0s
 ---
 
 Achieving high quality in software is challenging. Your complex software should not crash, hang, leak privacy, or become unavailable. How can different types of tests assist in this endeavor? I will share my personal experiences and insights as a Software Developer at Cisco, discussing various testing strategies ranging from unit tests to integration tests. We will explore the benefits and challenges of each approach and stress the importance of incorporating tests from the very beginning.

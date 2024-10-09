@@ -1,6 +1,7 @@
 ---
 title: Beyond Safety - How security can enhance developer experience
 speaker: nora-thomas
+video: Mr7-Ii-wZ3k
 ---
 
 Is security slowing down your development process for you as a developer? This talk aims to change that perception. We will present real case studies showcasing how systems with high security requirements can still be responsive, user friendly, and easy for developers to work with.

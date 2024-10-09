@@ -1,6 +1,7 @@
 ---
 title: Kotlin Multiplatform's Cross-Platform Brilliance at Norway's 377-Year-Old National Postal Service
 speaker: anshika-koul
+video: RMLBr9ZOyig
 ---
 
 Do you have a complex business rule-set problem? You know the kind where you have business rules (logic) spread across multiple platforms, systems and applications? Some of them might even be alter egos of the same rule hiding in different apps. You never know which one might turn up where, there is no single source of truth, solving errors takes hours of debugging, and making changes requires (oftentimes) painful coordination across teams and applications (ugh).
