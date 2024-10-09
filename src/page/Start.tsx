@@ -1,4 +1,5 @@
 import { ConfStats } from '#components/ConfStats'
+import { EmbedYouTubeVideo } from '#components/EmbedYouTubeVideo'
 import { Footer } from '#components/Footer'
 import { Header } from '#components/Header'
 import { HeaderNav } from '#components/HeaderNav'
@@ -36,6 +37,18 @@ export const Start = ({
 			<div id="about">
 				<ConfStats />
 			</div>
+			<section class="bg-highlight py-4">
+				<div class="container py-4">
+					<div class="row">
+						<div class="col-lg-8 mx-auto">
+							<EmbedYouTubeVideo
+								playlist="PL6JNLg5GnxPgCyp60z5Be21j7r8lF7wYh"
+								title="AdaCon 2024 Recordings"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
 			<main class="bg-off-white">
 				<div class="container py-4">
 					<div class="row">

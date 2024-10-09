@@ -1,7 +1,7 @@
 import { Calendar, MapPin } from 'lucide-preact'
 import { useEffect, useRef, useState } from 'preact/hooks'
 import { styled } from 'styled-components'
-import { Con } from '../con'
+import { Con } from '../con.js'
 import { shuffleArray } from '../shuffleArray'
 import { Countdown } from './Countdown'
 import { useCountdown } from '#context/ConfCountdown'
@@ -132,17 +132,15 @@ export const Header = ({ small }: { small?: true }) => {
 							<MapPin /> Rebel, Oslo, Norway
 						</p>
 						<div class="col-lg-6">
-							{hasStarted && (
-								<>
-									<p>
-										<a
-											href="./#live"
-											class="btn btn-primary fs-5 fw-bold font-headline "
-										>
-											Watch the live stream now!
-										</a>
-									</p>
-								</>
+							{hasStarted && Con.liveStream !== undefined && (
+								<p>
+									<a
+										href="./#live"
+										class="btn btn-primary fs-5 fw-bold font-headline "
+									>
+										Watch the live stream now!
+									</a>
+								</p>
 							)}
 							{!hasStarted && (
 								<>

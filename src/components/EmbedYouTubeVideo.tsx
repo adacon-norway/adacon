@@ -1,9 +1,8 @@
 import { ViewportObserver } from 'preact-intersection-observer'
 
-export const EmbedYouTubeVideo = ({
-	video,
-	title,
-}: { video: string; title: string }) => (
+export const EmbedYouTubeVideo = (
+	args: { title: string } & ({ video: string } | { playlist: string }),
+) => (
 	<ViewportObserver
 		render={({ inView, entry }) => {
 			if (!inView) return null
@@ -13,8 +12,12 @@ export const EmbedYouTubeVideo = ({
 				<iframe
 					width={width}
 					height={height}
-					src={`https://www.youtube-nocookie.com/embed/${video}`}
-					title={title}
+					src={
+						'video' in args
+							? `https://www.youtube-nocookie.com/embed/${args.video}`
+							: `https://www.youtube-nocookie.com/embed/videoseries?list=${args.playlist}`
+					}
+					title={args.title}
 					frameBorder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 					allowFullScreen

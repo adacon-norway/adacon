@@ -1,9 +1,8 @@
-import { ViewportObserver } from 'preact-intersection-observer'
 import { EmbedYouTubeVideo } from './EmbedYouTubeVideo'
 import type { Speaker } from '../../pages/content/+onBeforeRender'
 import { speakersByYear } from '../speakersByYear.js'
 import './Speakers.css'
-import { SpeakerCard } from './SpeakerCard'
+import { SpeakerCard } from './SpeakerCard.js'
 
 export const Previously = ({ speakers }: { speakers: Speaker[] }) => {
 	const speakers2023 = speakersByYear(speakers, 2023)
@@ -14,6 +13,10 @@ export const Previously = ({ speakers }: { speakers: Speaker[] }) => {
 				<div class="row">
 					<div class="col-md-6 offset-md-3 pt-4 pb-4">
 						<h2 class="fs-3 py-4">Previously</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 offset-md-3 pt-4">
 						<h3 class="fs-4 py-4">2023</h3>
 						<p>
 							AdaCon Norway was proud to announce the return of its conference
@@ -21,32 +24,14 @@ export const Previously = ({ speakers }: { speakers: Speaker[] }) => {
 							Tuesday October 10th. Our venue was Rebel, Universitetsgata 2,
 							0164 Oslo.
 						</p>
-						<p>
-							You can watch the live-stream recording on{' '}
-							<a
-								href="https://youtube.com/watch/rt_eM_KRfK4"
-								title="AdaCon 2023 live stream recording on YouTube"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								YouTube
-							</a>{' '}
-							and{' '}
-							<a
-								href="https://vimeo.com/event/3782646"
-								title="AdaCon 2023 live stream recording on Vimeo"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								Vimeo
-							</a>
-							.
-						</p>
 					</div>
 				</div>
 				<div class="row pb-4">
 					<div class="col-lg-8 offset-lg-2">
-						<EmbedYouTubeVideo video="rt_eM_KRfK4" title="Live Stream 2023" />
+						<EmbedYouTubeVideo
+							playlist="PL6JNLg5GnxPizCfTII2qm9jVedtQPUo2-"
+							title="AdaCon 2023 recordings"
+						/>
 					</div>
 				</div>
 				<div class="row">
@@ -87,8 +72,8 @@ export const Previously = ({ speakers }: { speakers: Speaker[] }) => {
 				</div>
 				<div class="row pb-4">
 					<div class="col-lg-8 offset-lg-2">
-						<EmbedPlaylist
-							list="PL6JNLg5GnxPhJkUm8mihIAEdi54WJYBP_"
+						<EmbedYouTubeVideo
+							playlist="PL6JNLg5GnxPhJkUm8mihIAEdi54WJYBP_"
 							title="Ada Lovelace Day 2019"
 						/>
 					</div>
@@ -109,25 +94,3 @@ export const Previously = ({ speakers }: { speakers: Speaker[] }) => {
 		</section>
 	)
 }
-
-const EmbedPlaylist = ({ list, title }: { list: string; title: string }) => (
-	<ViewportObserver
-		render={({ inView, entry }) => {
-			if (!inView) return null
-			const width = entry?.boundingClientRect.width ?? 560
-			const height = (width / 560) * 315
-			return (
-				<iframe
-					width={width}
-					height={height}
-					src={`https://www.youtube-nocookie.com/embed/videoseries?list=${list}`}
-					title={title}
-					frameBorder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					allowFullScreen
-				/>
-			)
-		}}
-		options={{ triggerOnce: true }}
-	/>
-)

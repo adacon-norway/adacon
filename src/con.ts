@@ -22,7 +22,4 @@ export const Con: {
 	},
 	notificationLink: new URL('https://forms.gle/tBWenmbV58g9tguZ6'),
 	ticketsLink: new URL('https://tikkio.com/tickets/50052-adacon-norway-2024'),
-	liveStream: {
-		youtubeVideoId: 'wqXqJfQMrqI',
-	},
 }
