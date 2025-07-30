@@ -12,7 +12,7 @@ import { Sponsors } from '#components/Sponsors'
 import { Tickets } from '#components/Tickets'
 import { useCountdown } from '#context/ConfCountdown'
 import type { Page } from '#context/Pages'
-import type { Speaker } from '../../pages/content/+onBeforeRender'
+import type { Speaker } from '../../pages/content/+onBeforeRender.ts'
 import { Con } from '../con.js'
 
 export const Start = ({
@@ -33,6 +33,20 @@ export const Start = ({
 		<>
 			<HeaderNav transparent={true} />
 			<Header />
+			<aside class="bg-off-white py-4">
+				<div class="container my-4">
+					<div class="row">
+						<div class="col-lg-8 mx-auto text-center">
+							<div class="alert alert-warning mb-0">
+								<h4 class="alert-heading mb-2">📢 No AdaCon 2025</h4>
+								<p class="mb-0">
+									Unfortunately, AdaCon will not be held in 2025.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</aside>
 			{hasStarted && !isNextDay && <LiveUpdates />}
 			<div id="about">
 				<ConfStats />
