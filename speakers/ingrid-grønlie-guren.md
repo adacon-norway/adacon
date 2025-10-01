@@ -1,7 +1,6 @@
 ---
 name: Ingrid Grønlie Guren
 photo: https://cdn.sanity.io/images/q0ipzqdg/production/de3d9b0e7ddec8293d4268b5f5833b26359a194e-2563x3167.jpg
-mastodon: https://mastodon.kodeklang.social/@benedicte
 linkedIn: ingridguren
 homepage: https://ingrid.gg/
 pronouns: she/her
