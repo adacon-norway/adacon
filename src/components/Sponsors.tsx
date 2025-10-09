@@ -142,14 +142,15 @@ export const Sponsors = () => (
 					</p>
 					<p>
 						<a
-							href="https://www.aplia.no/"
+							href="https://variant.no/"
 							rel="friend met noopener noreferrer"
 							target="_blank"
 						>
 							<img
-								src="./static/aplia.svg"
-								alt="Aplia &middot; Unike digitale spesialister"
+								src="./static/variant.svg"
+								alt="Variant"
 								class="img-fluid mt-4 mb-2"
+								width={300}
 								style={{ maxWidth: '300px' }}
 							/>
 						</a>
